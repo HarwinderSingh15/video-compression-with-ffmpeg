@@ -1,3 +1,6 @@
+import RNFetchBlob from 'rn-fetch-blob';
+import { FFmpegKit, FFmpegKitConfig } from 'ffmpeg-kit-react-native';
+
 const compressWithFFMpeg = async (
   imagePath,
   fileName,
